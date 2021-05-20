@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul a {
+    color: #2b2b2b;
+    padding: 10px;   
+}
+
+main {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn {
+    background-color: rgb(15, 182, 248);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.btn:active {
+    box-shadow: none;
+    transform: translateY(1px);
+}
+
+.text-center {
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="howto.html">How to play</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="gameArea">
+            <div id="matchResult">
+                <div>
+                    <h2 class="text-center">You</h2>
+                    <div class="card">
+                        <img id="playerschoiceImg" src="img/scissors.png" alt="">
+                        <p id="playerschoice"></p>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-center">Computer</h2>
+                    <div class="card">
+                        <img id="computerschoiceImg" src="img/scissors.png" alt="">
+                        <p id="computerschoice"></p>
+                    </div>
+                </div>
+            </div>
+            <h2><span id="winningmessage"></h2>
+        
+            
+            <div><h2 id="timer">3</h2></div>
+            <button class="btn" id="btnNewMatch">New match</button>
+
+            <div class="choiceButtons">
+                <div class="card choiceButton rock" id="choiceButtonRock">
+                    <img src="img/rock.png" alt="">
+                    <p>rock</p>
+                </div>
+                <div class="card choiceButton paper" id="choiceButtonPaper">
+                    <img src="img/paper.png" alt="">
+                    <p>paper</p>
+                </div>
+                <div class="card choiceButton scissors" id="choiceButtonScissors">
+                    <img src="img/scissors.png" alt="">
+                    <p>scissors</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/rockPaperScissors.js"></script>
+</body>
+</html>
